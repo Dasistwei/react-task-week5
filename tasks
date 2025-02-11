@@ -1,0 +1,45 @@
+; 主線任務說明
+; 1. (ok) 使用 React Hook Form 完成表單驗證功能
+; 2. 使用 react-loading 套件 製作 loading 效果
+; 3. (ok) 串接前台 API 完成購物車功能
+
+; 注意：
+; 1. (ok) 新增相同產品到購物車時需累加項目
+; 2. (ok) 送出訂單後，購物車需要清除原本項目
+; 3. (ok) 購物車無產品時不建議發出結帳請求
+
+
+; 任務一：使用 React Hook Form 完成表單驗證功能
+; 前台頁面表單驗證（必要完成），驗證內容包含：
+; 1. Email (ok)：必填 / 需要符合格式 / input type 為 email
+; 2. 姓名 (ok)：必填
+; 3. 電話 (ok)：必填 / 超過 8 碼 / input type 為 tel
+; 4. 地址 (ok) ：必填
+; 5. 留言：非必填
+
+
+; 任務三：串 API 完成購物車功能
+; 1. (ok) 產品列表 getProducts
+; 2. (ok) 單一產品細節 getProduct
+; 3. (ok) 加入購物車 addToCart
+; 4. (ok) 購物車列表 getCart
+; 5. (ok) 刪除購物車項目（單一、全部）deleteOneItemFromCart / deleteAllItemFromCart
+; 6. (ok) 調整購物車產品數量 updateItemQuantityFromCart
+; 7. (ok) 結帳付款 -送出訂單 checkout
+
+; 1. 產品列表
+; - (ok) 顯示產品列表 
+; - (ok) 單一產品加到購物車
+; 2. 查看更多 
+;   - (ok) 點擊列表顯示產品詳細資訊
+;   - (ok) 可選擇購買數量
+;   - (ok) 加入購物車 
+; 2. 購物車
+; - (ok) 顯示購物車內產品清單
+; - (ok) 可刪除購物車內單一產品
+; - (ok) 可刪除全部購物車內產品
+; - (ok) 可調整購買數量
+
+; fix
+; 1. loading 功能
+; 2. (ok) 購物車無產品時不建議發出結帳請求  / 提示
